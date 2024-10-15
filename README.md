@@ -21,6 +21,7 @@ Main script for QC summary metrics extraction.
 1) Locate folders with Illumina folder convention
 2) For each runs, access the relevant files
 3) Extract relevant run parameters
+
 '''
 'Run Date','Run Name','Cycles','Tile Count','Density','% >= Q30','% Pf','Reads','Reads Pf','Total Fraction Mapped Reads','Reads PF and Average % >= Q30','Yield G','Yield Total Average % >= Q30', 'Final sample Yield Total Average % >= Q30 (GB) - PhiX','Sample count','Mapped Reads Cv','Error Rate','% Aligned'
 '''
