@@ -23,7 +23,12 @@ Main script for QC summary metrics extraction.
 3) Extract relevant run parameters
 
 ```
-'Run Date','Run Name','Cycles','Tile Count','Density','% >= Q30','% Pf','Reads','Reads Pf','Total Fraction Mapped Reads','Reads PF and Average % >= Q30','Yield G','Yield Total Average % >= Q30', 'Final sample Yield Total Average % >= Q30 (GB) - PhiX','Sample count','Mapped Reads Cv','Error Rate','% Aligned'
+'Run Date','Run Name','Cycles',
+'Tile Count','Density','% >= Q30','% Pf',
+'Reads','Reads Pf','Total Fraction Mapped Reads',
+'Reads PF and Average % >= Q30','Yield G',
+'Yield Total Average % >= Q30', 'Final sample Yield Total Average % >= Q30 (GB) - PhiX','Sample count',
+'Mapped Reads Cv','Error Rate','% Aligned'
 ```
 
 4) Loop and concat
