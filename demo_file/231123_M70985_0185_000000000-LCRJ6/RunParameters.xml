@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<RunParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LineWashRequired="false">
+  <RunParametersVersion>MiSeq_1_2</RunParametersVersion>
+  <CopyManifests>false</CopyManifests>
+  <FlowcellRFIDTag>
+    <SerialNumber>000000000-LCRJ6</SerialNumber>
+    <PartNumber>15028382</PartNumber>
+    <ExpirationDate>2024-10-03T00:00:00</ExpirationDate>
+    <LotNumber>20795976</LotNumber>
+  </FlowcellRFIDTag>
+  <PR2BottleRFIDTag>
+    <SerialNumber>MS1050502-00PR2</SerialNumber>
+    <PartNumber>15041807</PartNumber>
+    <ExpirationDate>2024-10-15T00:00:00</ExpirationDate>
+    <LotNumber>20798806</LotNumber>
+  </PR2BottleRFIDTag>
+  <ReagentKitRFIDTag>
+    <SerialNumber>MS3293403-600V3</SerialNumber>
+    <PartNumber>15043962</PartNumber>
+    <ExpirationDate>2024-09-03T00:00:00</ExpirationDate>
+    <LotNumber>20801032</LotNumber>
+  </ReagentKitRFIDTag>
+  <Resumable>true</Resumable>
+  <ManifestFiles />
+  <AfterRunWashMethod>Post-Run Wash</AfterRunWashMethod>
+  <Setup>
+    <SupportMultipleSurfacesInUI>true</SupportMultipleSurfacesInUI>
+    <ApplicationVersion>4.0.0.1769</ApplicationVersion>
+    <NumTilesPerSwath>19</NumTilesPerSwath>
+    <NumSwaths>1</NumSwaths>
+    <NumLanes>1</NumLanes>
+    <ApplicationName>MiSeq Control Software</ApplicationName>
+  </Setup>
+  <RunID>231123_M70985_0185_000000000-LCRJ6</RunID>
+  <ScannerID>M70985</ScannerID>
+  <RunNumber>185</RunNumber>
+  <FPGAVersion>9.5.12</FPGAVersion>
+  <MCSVersion>4.0.0.1769</MCSVersion>
+  <RTAVersion>1.18.54.4</RTAVersion>
+  <Barcode>000000000-LCRJ6</Barcode>
+  <PR2BottleBarcode>MS1050502-00PR2</PR2BottleBarcode>
+  <ReagentKitPartNumberEntered>15043962</ReagentKitPartNumberEntered>
+  <ReagentKitVersion>Version3</ReagentKitVersion>
+  <ReagentKitBarcode>MS3293403-600V3</ReagentKitBarcode>
+  <PreviousPR2BottleBarcode />
+  <PreviousReagentKitBarcode />
+  <ExperimentName>Amili_Batch_212_213</ExperimentName>
+  <RunDescription>16s</RunDescription>
+  <LibraryPrepKit>Custom</LibraryPrepKit>
+  <IndexKit>Custom</IndexKit>
+  <Chemistry>Amplicon</Chemistry>
+  <Username>sbsUser</Username>
+  <EnableAnalysis>false</EnableAnalysis>
+  <Reads>
+    <RunInfoRead Number="1" NumCycles="251" IsIndexedRead="N" />
+    <RunInfoRead Number="2" NumCycles="8" IsIndexedRead="Y" />
+    <RunInfoRead Number="3" NumCycles="8" IsIndexedRead="Y" />
+    <RunInfoRead Number="4" NumCycles="251" IsIndexedRead="N" />
+  </Reads>
+  <TempFolder>D:\Illumina\MiSeqTemp\231123_M70985_0185_000000000-LCRJ6</TempFolder>
+  <RTATempFolder>D:\Illumina\RTATemp\231123_M70985_0185_000000000-LCRJ6</RTATempFolder>
+  <AnalysisFolder>D:\Illumina\MiSeqAnalysis\231123_M70985_0185_000000000-LCRJ6</AnalysisFolder>
+  <RunStartDate>231123</RunStartDate>
+  <MostRecentWashType>MissedPostRunWash</MostRecentWashType>
+  <RecipeFolder>C:\ProgramData\Illumina\MiSeq Control Software\Recipe</RecipeFolder>
+  <ILMNOnlyRecipeFolder>C:\program files\Illumina\MiSeq Control Software\Recipe</ILMNOnlyRecipeFolder>
+  <SampleSheetName>MS3293403-600V3</SampleSheetName>
+  <SampleSheetFolder>D:\Illumina\MiSeq Control Software\SampleSheets</SampleSheetFolder>
+  <ManifestFolder>D:\Illumina\MiSeq Control Software\Manifests</ManifestFolder>
+  <OutputFolder>D:\Illumina\MiSeqOutput\231123_M70985_0185_000000000-LCRJ6</OutputFolder>
+  <FocusMethod>AutoFocus</FocusMethod>
+  <SurfaceToScan>Both</SurfaceToScan>
+  <SaveFocusImages>false</SaveFocusImages>
+  <SaveScanImages>true</SaveScanImages>
+  <RunManagementType>LocalRunManager</RunManagementType>
+  <BaseSpaceRunId>270454268</BaseSpaceRunId>
+  <CloudRunId>270454268</CloudRunId>
+  <SelectedRun>Amili_Batch_212_213</SelectedRun>
+  <ModuleName>GenerateFASTQ</ModuleName>
+  <MAPRunId>142142</MAPRunId>
+  <DxUserName />
+  <DxUserLevel />
+  <BaseSpaceMode>IpdRequested</BaseSpaceMode>
+  <ManualFlowcellEntry>false</ManualFlowcellEntry>
+  <ManualReagentEntry>false</ManualReagentEntry>
+  <ManualPR2Entry>false</ManualPR2Entry>
+  <CopyServiceRunId>1AC9F9B1076A1E35</CopyServiceRunId>
+  <LocalRunManagerRunId>142142</LocalRunManagerRunId>
+</RunParameters>
