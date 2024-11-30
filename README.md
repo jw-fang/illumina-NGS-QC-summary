@@ -39,3 +39,6 @@ Main script for QC summary metrics extraction.
 2) Dialogue pop-up asks you to choose the **approximate location** of the sequencing runs
 3) Script runs - will take awhile
 4) Database in .xlsx format is exported
+
+# Bugs
+The script has only been tested on Miseq and Nextseq 2000 data. If you encounter any issues, do reach out and send me a sample of the offending data files.
