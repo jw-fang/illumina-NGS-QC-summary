@@ -1,7 +1,9 @@
 # Illumina QC Summary Automation
 The python script were created to automate the extraction of QC parameters from Illumina Miseq and Nextseq platforms. 2 scripts are available in this project to facilitate this purpose.
 
-Original script is available if the latest version does not work on your device.
+Original script (v1) is available if the latest version does not work on your device.
+v2 - Adds prompt for selection of QC paramters, revamped the code
+v2.1 - Convert global variables to functions
 
 # export.py
 This script will be useful if your sequencing runs were stored in servers. Not necessary for actual script.
