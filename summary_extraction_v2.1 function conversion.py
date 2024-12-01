@@ -12,6 +12,9 @@ import easygui
 
 def pathfinder():
     filepath=easygui.diropenbox(title='Choose exported folder')
+    filepath.ui.boxRoot.attributes("-topmost", True)
+    filepath.run()
+    
     list=glob.glob(filepath+"/**/[0-9]*_*_*_*",recursive=True)
     list=[x for x in list if os.path.isdir(x)]
     return list
