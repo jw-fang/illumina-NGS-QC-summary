@@ -89,39 +89,39 @@ error_counter=0
 database_n=0
 
 for path in list:
-    # try:
-    path_data=pd.DataFrame()
-    run_name=os.path.basename(path)
-    date=run_name.split("_")[0]
-    date="/".join(([date[i:i+2] for i in range(0, len(date), 2)]))
-
-    path_data=parse(path,selected_sum,selected_lane,selected_index)
-    path_data.insert(0,'Run Name',run_name)
-    path_data.insert(1,'Run Date',date)
-    
-    database_n=len(database.columns)
-    
-    if len(database)==0:
-        database=path_data
-        
-    elif database_n !=len(path_data.columns):
-        data_names=database.columns.tolist()
-        path_names=path_data.columns.tolist()
-        
-        if database_n >= len(path_names):
-            difference=set(data_names)-set(path_names)
-            for x in difference:
-                path_data[x]="N/A"
-        else:
-            difference=set(path_names)-set(data_names)
-            for x in difference:
-                database[x]="N/A"
-        
-        data_names=database.columns.tolist()
-        database=pd.concat([database,path_data])
-        
-    else:
-        database=pd.concat([database,path_data])
+    try:
+              path_data=pd.DataFrame()
+              run_name=os.path.basename(path)
+              date=run_name.split("_")[0]
+              date="/".join(([date[i:i+2] for i in range(0, len(date), 2)]))
+          
+              path_data=parse(path,selected_sum,selected_lane,selected_index)
+              path_data.insert(0,'Run Name',run_name)
+              path_data.insert(1,'Run Date',date)
+              
+              database_n=len(database.columns)
+              
+              if len(database)==0:
+                  database=path_data
+                  
+              elif database_n !=len(path_data.columns):
+                  data_names=database.columns.tolist()
+                  path_names=path_data.columns.tolist()
+                  
+                  if database_n >= len(path_names):
+                      difference=set(data_names)-set(path_names)
+                      for x in difference:
+                          path_data[x]="N/A"
+                  else:
+                      difference=set(path_names)-set(data_names)
+                      for x in difference:
+                          database[x]="N/A"
+                  
+                  data_names=database.columns.tolist()
+                  database=pd.concat([database,path_data])
+                  
+              else:
+                  database=pd.concat([database,path_data])
             
     except Exception as error:
         print(f"Error for {run_name} with error {error}")
