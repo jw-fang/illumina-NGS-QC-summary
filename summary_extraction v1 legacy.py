@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-"""
 import interop.core as ic
 import pandas as pd
 import os
