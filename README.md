@@ -57,4 +57,4 @@ Prompt 3: Index QC
 5) Database in .xlsx format is exported
 
 # Bugs
-The script has only been tested on Miseq and Nextseq 2000 data. If you encounter any issues, do reach out and send me a sample of the offending data files.
+The script has only been tested on Miseq and Nextseq 500 data. If you encounter any issues, do reach out and send me a sample of the offending data files.
